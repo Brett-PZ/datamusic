@@ -1,0 +1,24 @@
+/* name this database: sockmarket */
+
+CREATE TABLE music3 (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name TEXT(20),
+    song TEXT(50),
+    artist TEXT(50),
+    mood TEXT,
+    lastTimeYouListened DATE,
+    link TEXT
+    );
+
+/* access MySQL/MariaDB from the Terminal - Mac only:
+
+cd /Applications/XAMPP/xamppfiles/bin;./mysql --user=root --password=
+
+SHOW DATABASES;
+
+USE sockmarket
+
+   -- type SQL queries --
+
+QUIT
+*/

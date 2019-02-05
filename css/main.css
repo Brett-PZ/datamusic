@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  color:#000000;
+  background:#FFAA95;
+  font-family:sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  line-height: 150%;
+
+}
+
+p{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2em;
+  width:36em;
+  max-width: 100%;
+  font-size:18px;
+
+}
+
+#container{
+  max-width: 600px;
+  margin:30px auto;
+  background:#FF4545;
+  padding:3em;
+}
+
+#musicform{
+  max-width: 600px;
+  margin:30px auto;
+  background:#FF4545;
+  padding:3em;
+}
+
+label{
+  padding:1em;
+}
+@media screen and (max-width:700px)
+{
+  body{
+    background:#FF4545;
+  }
+  #container{
+    margin:10px auto;
+    padding: 10px;
+  }
+}

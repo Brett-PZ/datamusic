@@ -1,0 +1,63 @@
+#container{
+  max-width: 800px;
+  margin: 30px auto;
+  background: #FF4545;
+  padding: 3em;
+}
+
+/* I used the table.css for reference. This helped with building the tables colors. It says not to in the assignment, but I'm not going to fake like I didn't. */
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #000000;
+  background: #ffdfdf;
+  margin:20px auto;
+}
+
+td,th{
+  border-left: 1px solid #000000;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin:0;
+  overflow: visible;
+  padding:0.5em 1em;
+}
+
+th{
+  background: #E99e9e;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+tr:nth-child(2n-1) td{
+background: #e85f5f;
+}
+
+td, th{
+  border-width: 0 0 1px 0;
+  border-bottom: 1px solid #ffdfdf;
+}
+
+@media screen and (max-width:1024px){
+  body{
+    background:#FF4545
+  }
+}
+
+@media screen and (max-width:850px){
+  #container{
+    max-width: 100%;
+    min-width: 100%;
+    margin:auto;
+    padding:1em 0;
+  }
+  p{
+    width: 90%;
+    margin:auto;
+  }
+  td,th{
+    padding: 0.2em 0.5em;
+  }
+}
